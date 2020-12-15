@@ -1,0 +1,127 @@
+.informcomments{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 37% 36% 4% 7% 4% 5%;
+}
+.lastcomment{
+margin-left: 19px ;
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 16px;
+color: #333333;
+}
+.comments{
+    text-indent: 20px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #005DA1;   
+}
+    .heart {
+        position: relative;
+        width: 6px;
+        height: 10px;
+        background-color: #259bb8;
+        box-shadow: -1px 0px 2px #d0f2dd;
+        -webkit-border-radius: 50px 50px 0 0;
+        -moz-border-radius: 50px 50px 0 0;
+        border-radius: 50px 50px 0 0;
+        -webkit-transform: rotate(315deg);
+        -moz-transform: rotate(315deg);
+        -ms-transform: rotate(315deg);
+        -o-transform: rotate(315deg);
+        transform: rotate(315deg);
+      }
+      .heart:before {
+        position: absolute;
+        width: 10px;
+        height: 6px;
+        left: 0;
+        bottom: 0;
+        content: "";
+          background-color: #259bb8;
+          box-shadow: -1px 0px 2px #d0f2dd;
+          -webkit-border-radius: 50px 50px 0 0;
+        -moz-border-radius: 50px 50px 0 0;
+        border-radius: 0 50px 50px 0;
+      }
+      .heart:hover:before, .heart:hover{
+          box-shadow:none;
+      }
+.arrow_box {
+    position: relative;
+    background:  #259bb8;
+    border: 2px solid #d0f2dd;
+}
+.arrow_box:after, .arrow_box:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box:after {
+    border-color: rgba(20, 172, 227, 0);
+    border-top-color: #14ace3;
+    border-width: 3px;
+    left: 50%;
+    margin-left: -3px;
+}
+.arrow_box:before {
+    border-color: rgba(208, 242, 221, 0);
+    border-top-color: #d0f2dd;
+    border-width: 6px;
+    left: 50%;
+    margin-left: -6px;
+}
+.like{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+     
+}
+.form{
+    margin-top: 22px;
+    width: 489px;
+    height: 191px;
+    background: #F2F2F2;
+}
+.textarea{
+    resize:none;
+    width: 447px;
+    height: 63px;
+    margin-left: 21px;
+    margin-top: 28px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 1px;
+
+}
+.button{
+    width: 281px;
+    height: 43px;
+    margin-left: 104px;
+    margin-top: 23px;
+    background: #FDD639;
+    border-radius: 23px;
+}
+.textbutton{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+}
